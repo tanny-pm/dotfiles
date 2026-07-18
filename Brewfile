@@ -14,13 +14,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Terminal-based AI coding assistant
 cask "claude-code"
-# Write, edit, and chat about your code with AI
-cask "cursor"
-cask "font-hack-nerd-font"
-# Open-source code editor
-cask "visual-studio-code"
-# Rust-based terminal
-cask "warp"
 # Multiplayer code editor
 cask "zed"
 npm "@switchbot/openapi-cli"
