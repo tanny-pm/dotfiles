@@ -15,8 +15,6 @@ brew "stow"
 brew "zsh-autosuggestions"
 # zsh-syntax-highlighting ｜ コマンドのシンタックスハイライト
 brew "zsh-syntax-highlighting"
-# SwitchBot OpenAPI CLI ｜ SwitchBot デバイス操作（npm）
-npm "@switchbot/openapi-cli"
 
 # ============================================================
 # 開発・エディタ
