@@ -1,67 +1,57 @@
-# Cross-platform make
+# ============================================================
+# CLI ツール（formulae）
+# ============================================================
+# CMake ｜ クロスプラットフォームのビルドシステム
 brew "cmake"
-# GitHub command-line tool
+# GitHub CLI ｜ GitHub のコマンドライン操作
 brew "gh"
-# Open-source, cross-platform JavaScript runtime environment
+# Node.js ｜ JavaScript ランタイム
 brew "node"
-# Cross-shell prompt for astronauts
+# Starship ｜ 高速・多機能なシェルプロンプト
 brew "starship"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
+# GNU Stow ｜ dotfiles のシンボリックリンク管理
 brew "stow"
-# Fish-like fast/unobtrusive autosuggestions for zsh
+# zsh-autosuggestions ｜ 入力履歴からのコマンドサジェスト
 brew "zsh-autosuggestions"
-# Fish shell like syntax highlighting for zsh
+# zsh-syntax-highlighting ｜ コマンドのシンタックスハイライト
 brew "zsh-syntax-highlighting"
-# Terminal-based AI coding assistant
-cask "claude-code"
-# Multiplayer code editor
-cask "zed"
-# Web browser
-cask "google-chrome"
-# Keyboard customizer
-cask "karabiner-elements"
-# Email and calendar app
-cask "microsoft-outlook"
-# Options for Logitech devices
-cask "logi-options+"
-# RAW image processing for FUJIFILM cameras
-cask "fujifilm-x-raw-studio"
-# Cloud photo storage
-cask "amazon-photos"
-# Adobe Creative Cloud launcher
-cask "adobe-creative-cloud"
+# SwitchBot OpenAPI CLI ｜ SwitchBot デバイス操作（npm）
 npm "@switchbot/openapi-cli"
 
+# ============================================================
+# 開発・エディタ
+# ============================================================
+# Claude Code ｜ ターミナル型 AI コーディング支援
+cask "claude-code"
+# Zed ｜ 高速なコードエディタ
+cask "zed"
 
-以下は移行する
- Google   │ google-chr │                                     │
-│ Chrome   │ ome        │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤
-│ Karabine │ karabiner- │ EventViewerも同caskに同梱（2つで1つ │
-│ r-Elemen │ elements   │ ）                                  │
-│ ts       │            │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤
-│ Microsof │ microsoft- │                                     │
-│ t        │ outlook    │                                     │
-│ Outlook  │            │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤                             │├──────────┼────────────┼─────────────────────────────────────┤
-│ logiopti │ logi-optio │                                     │
-│ onsplus  │ ns+        │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤
-│ FUJIFILM │ fujifilm-x │                                     │
-│  X RAW   │ -raw-studi │                                     │
-│ STUDIO   │ o          │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤
-│ Amazon   │ amazon-pho │                                     │
-│ Photos   │ tos        │                                     │
-├──────────┼────────────┼─────────────────────────────────────┤
-│ Adobe    │ adobe-crea │ CCランチャーのみ。Lightroom/Photosh │
-│ Creative │ tive-cloud │ opはCC経由で導入されるため個別cask  │
-│  Cloud   │            │ なし
+# ============================================================
+# ブラウザ
+# ============================================================
+# Google Chrome ｜ Web ブラウザ
+cask "google-chrome"
 
+# ============================================================
+# キーボード・デバイス
+# ============================================================
+# Karabiner-Elements ｜ キーボードのカスタマイズ
+cask "karabiner-elements"
+# Logi Options+ ｜ Logicool デバイスの設定
+cask "logi-options+"
 
-以下は削除する
-│ Raycast  │ raycast    │
+# ============================================================
+# メール・コミュニケーション
+# ============================================================
+# Microsoft Outlook ｜ メール・カレンダー
+cask "microsoft-outlook"
 
-これは独自ビルドのため対象外
-│ VoiceInk │ voiceink   │                                     │
+# ============================================================
+# 写真・クリエイティブ
+# ============================================================
+# FUJIFILM X RAW STUDIO ｜ FUJIFILM 機の RAW 現像
+cask "fujifilm-x-raw-studio"
+# Amazon Photos ｜ クラウド写真ストレージ
+cask "amazon-photos"
+# Adobe Creative Cloud ｜ Adobe アプリのランチャー
+cask "adobe-creative-cloud"
