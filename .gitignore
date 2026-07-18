@@ -1,0 +1,35 @@
+# ===== 秘密情報（防御的除外・絶対にコミットしない） =====
+**/.credentials.json
+**/hosts.yml
+**/config.yml
+*.token
+*.pem
+*.key
+.env
+.env.*
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Claude Code の状態・履歴系（config系のみ管理） =====
+claude/.claude/projects/
+claude/.claude/sessions/
+claude/.claude/session-env/
+claude/.claude/history.jsonl
+claude/.claude/file-history/
+claude/.claude/shell-snapshots/
+claude/.claude/backups/
+claude/.claude/cache/
+claude/.claude/daemon*
+claude/.claude/jobs/
+claude/.claude/plans/
+claude/.claude/plugins/
+claude/.claude/ide/
+claude/.claude/debug/
+claude/.claude/tasks/
+claude/.claude/.last-cleanup
+
+# ===== Zed の状態・バイナリDB =====
+zed/.config/zed/prompts/
+zed/.config/zed/conversations/
+zed/.config/zed/*.log

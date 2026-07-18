@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "proxy": "",
+  "which_key": {
+    "enabled": false
+  },
+  "markdown_preview_font_size": 15.0,
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "Menlo",
+  "icon_theme": "Zed (Default)",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "agent_ui_font_size": 16.0,
+  "agent": {
+    "terminal_init_command": "claude",
+    "play_sound_when_agent_done": "always",
+    "notify_when_agent_waiting": "all_screens",
+    "enable_feedback": false,
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-5",
+      "enable_thinking": true,
+      "effort": "high"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "edit_predictions": {
+    "mode": "eager"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "right",
+    "group_by": "status",
+    "tree_view": true,
+  },
+  "autosave": "on_focus_change",
+  "cli_default_open_behavior": "existing_window",
+  "terminal": {
+    "bell": "system"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}

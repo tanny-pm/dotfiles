@@ -1,0 +1,35 @@
+{
+  "agentPushNotifEnabled": true,
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "bash '/Users/celica/.claude/hooks/herdr-agent-state.sh' session",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "afplay /System/Library/Sounds/Ping.aiff",
+            "type": "command",
+            "async": true
+          }
+        ]
+      }
+    ]
+  },
+  "model": "opus",
+  "preferredNotifChannel": "terminal_bell",
+  "statusLine": {
+    "command": "sh /Users/celica/.claude/statusline-command.sh",
+    "type": "command"
+  },
+  "theme": "auto"
+}
