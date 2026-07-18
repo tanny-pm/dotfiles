@@ -9,7 +9,7 @@ macOS の個人設定を [GNU Stow](https://www.gnu.org/software/stow/) で管�
 | パッケージ | 内容 |
 | --- | --- |
 | `zsh` | `.zshrc` `.zshenv` `.zprofile` `.profile` |
-| `git` | `.gitconfig` `.config/git/ignore` |
+| `git` | `.config/git/ignore`（グローバル gitignore） |
 | `starship` | `.config/starship.toml`（プロンプト） |
 | `zed` | `.config/zed/`（settings, keymap） |
 | `claude` | `.claude/`（settings, statusline, hooks, skills） |
@@ -43,6 +43,7 @@ make restow      # リンクを張り直す（ファイル追加/削除の反映
 以下はコミットしない（`.gitignore` で防御）:
 
 - 認証情報: `~/.config/gh/hosts.yml`、`~/.claude.json`、`*.credentials.json` など
+- `~/.gitconfig`（`user.name` / `user.email`）: PC ごとに異なるので各自のマシンで直接作成する
 - 履歴・状態: `~/.zsh_history`、`~/.claude/` の `projects/ sessions/ history.jsonl` ほか
 - バイナリ状態: Zed の `prompts/`（LMDB DB）
 
