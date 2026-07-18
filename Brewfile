@@ -53,5 +53,6 @@ cask "microsoft-outlook"
 cask "fujifilm-x-raw-studio"
 # Amazon Photos ｜ クラウド写真ストレージ
 cask "amazon-photos"
-# Adobe Creative Cloud ｜ Adobe アプリのランチャー
-cask "adobe-creative-cloud"
+
+# ※ Adobe Creative Cloud は既存インストールとインストーラが衝突するため
+#   Homebrew 管理から除外（CC 本体が自動更新するため手動管理でよい）
