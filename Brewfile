@@ -2,8 +2,6 @@
 brew "cmake"
 # GitHub command-line tool
 brew "gh"
-# Agent multiplexer that lives in your terminal
-brew "herdr"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Cross-shell prompt for astronauts
