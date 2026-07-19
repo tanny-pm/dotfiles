@@ -1,35 +1,38 @@
 {
-  "agentPushNotifEnabled": true,
+  "model": "opus",
   "hooks": {
     "SessionStart": [
       {
+        "matcher": "*",
         "hooks": [
           {
+            "type": "command",
             "command": "bash '/Users/celica/.claude/hooks/herdr-agent-state.sh' session",
-            "timeout": 10,
-            "type": "command"
+            "timeout": 10
           }
-        ],
-        "matcher": "*"
+        ]
       }
     ],
     "Stop": [
       {
         "hooks": [
           {
-            "async": true,
+            "type": "command",
             "command": "afplay /System/Library/Sounds/Ping.aiff",
-            "type": "command"
+            "async": true
           }
         ]
       }
     ]
   },
-  "model": "opus",
-  "preferredNotifChannel": "terminal_bell",
   "statusLine": {
-    "command": "sh /Users/celica/.claude/statusline-command.sh",
-    "type": "command"
+    "type": "command",
+    "command": "sh /Users/celica/.claude/statusline-command.sh"
   },
-  "theme": "auto"
+  "theme": "auto",
+  "preferredNotifChannel": "terminal_bell",
+  "agentPushNotifEnabled": true,
+  "enabledPlugins": {
+    "claude-code-setup@claude-plugins-official": true
+  }
 }

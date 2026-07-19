@@ -17,8 +17,24 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # ============================================================
+# ターミナル・エージェント（herdr 一式）
+# ============================================================
+# herdr ｜ ターミナル型 AI エージェント多重化ツール（agent multiplexer）
+brew "herdr"
+# bat ｜ シンタックスハイライト付きの cat（herdr-file-viewer のレンダラ）
+brew "bat"
+# git-delta ｜ git diff を見やすく色付け表示（herdr-file-viewer のレンダラ / delta コマンド）
+brew "git-delta"
+# glow ｜ Markdown をターミナルで整形表示（herdr-file-viewer のレンダラ）
+brew "glow"
+# hunk ｜ エージェント生成の差分をレビューするターミナル diff ビューア
+brew "hunk"
+
+# ============================================================
 # 開発・エディタ
 # ============================================================
+# Ghostty ｜ GPU アクセラレーションのターミナルエミュレータ（herdr のホスト端末）
+cask "ghostty"
 # Claude Code ｜ ターミナル型 AI コーディング支援
 cask "claude-code"
 # Zed ｜ 高速なコードエディタ
@@ -35,8 +51,16 @@ cask "google-chrome"
 # ============================================================
 # Karabiner-Elements ｜ キーボードのカスタマイズ
 cask "karabiner-elements"
+# BetterTouchTool ｜ 入力デバイス（トラックパッド/マウス/キーボード）のカスタマイズ・自動化
+cask "bettertouchtool"
 # Logi Options+ ｜ Logicool デバイスの設定
 cask "logi-options+"
+
+# ============================================================
+# ノート・ドキュメント
+# ============================================================
+# Obsidian ｜ Markdown ベースのノートアプリ
+cask "obsidian"
 
 # ============================================================
 # メール・コミュニケーション
