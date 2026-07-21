@@ -33,3 +33,14 @@ claude/.claude/.last-cleanup
 zed/.config/zed/prompts/
 zed/.config/zed/conversations/
 zed/.config/zed/*.log
+
+# ===== herdr の状態・実行時ファイル（config.toml のみ管理） =====
+herdr/.config/herdr/*.log
+herdr/.config/herdr/*.sock
+herdr/.config/herdr/*.bak.*
+herdr/.config/herdr/session.json
+herdr/.config/herdr/plugins.json
+herdr/.config/herdr/plugins/
+
+# ===== Ghostty の自動生成テーマ =====
+ghostty/Library/Application Support/com.mitchellh.ghostty/auto/

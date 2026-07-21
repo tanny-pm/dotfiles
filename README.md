@@ -13,6 +13,8 @@ macOS の個人設定を [GNU Stow](https://www.gnu.org/software/stow/) で管�
 | `starship` | `.config/starship.toml`（プロンプト） |
 | `zed` | `.config/zed/`（settings, keymap） |
 | `claude` | `.claude/`（settings, statusline, hooks, skills） |
+| `ghostty` | `Library/Application Support/com.mitchellh.ghostty/config.ghostty`（ターミナル） |
+| `herdr` | `.config/herdr/config.toml`（ターミナルマルチプレクサ） |
 | `Brewfile` | Homebrew で入れているツール一覧 |
 
 ## セットアップ（新しい Mac で）
