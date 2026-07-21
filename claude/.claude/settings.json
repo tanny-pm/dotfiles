@@ -29,10 +29,11 @@
     "type": "command",
     "command": "sh /Users/celica/.claude/statusline-command.sh"
   },
+  "enabledPlugins": {
+    "claude-code-setup@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
   "theme": "auto",
   "preferredNotifChannel": "terminal_bell",
-  "agentPushNotifEnabled": true,
-  "enabledPlugins": {
-    "claude-code-setup@claude-plugins-official": true
-  }
+  "agentPushNotifEnabled": true
 }
