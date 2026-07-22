@@ -15,6 +15,8 @@ macOS の個人設定を [GNU Stow](https://www.gnu.org/software/stow/) で管�
 | `claude` | `.claude/`（settings, statusline, hooks, skills） |
 | `ghostty` | `Library/Application Support/com.mitchellh.ghostty/config.ghostty`（ターミナル） |
 | `herdr` | `.config/herdr/config.toml`（ターミナルマルチプレクサ） |
+| `gh-dash` | `.config/gh-dash/config.yml`（GitHub ダッシュボード） |
+| `emacs` | `.emacs.d/init.el`（ターミナル Emacs 設定） |
 | `Brewfile` | Homebrew で入れているツール一覧 |
 
 ## セットアップ（新しい Mac で）

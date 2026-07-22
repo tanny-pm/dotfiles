@@ -1,5 +1,5 @@
 DOTFILES := $(HOME)/dev/dotfiles
-PACKAGES := zsh git starship zed claude ghostty herdr
+PACKAGES := zsh git starship zed claude ghostty herdr gh-dash emacs
 STOW     := stow -d $(DOTFILES) -t $(HOME)
 
 .PHONY: help install stow unstow restow check brew

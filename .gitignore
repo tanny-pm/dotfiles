@@ -2,6 +2,8 @@
 **/.credentials.json
 **/hosts.yml
 **/config.yml
+# gh-dash の config.yml は秘密情報を含まないため管理対象
+!gh-dash/.config/gh-dash/config.yml
 *.token
 *.pem
 *.key
@@ -10,6 +12,11 @@
 
 # ===== macOS =====
 .DS_Store
+
+# ===== Emacs のロック/自動保存/バックアップ（リポジトリ全体） =====
+\#*\#
+.\#*
+*~
 
 # ===== Claude Code の状態・履歴系（config系のみ管理） =====
 claude/.claude/projects/
@@ -44,3 +51,17 @@ herdr/.config/herdr/plugins/
 
 # ===== Ghostty の自動生成テーマ =====
 ghostty/Library/Application Support/com.mitchellh.ghostty/auto/
+
+# ===== Emacs の状態・実行時ファイル（init.el のみ管理） =====
+emacs/.emacs.d/auto-save-list/
+emacs/.emacs.d/eln-cache/
+emacs/.emacs.d/elpa/
+emacs/.emacs.d/backups/
+emacs/.emacs.d/transient/
+emacs/.emacs.d/*.elc
+emacs/.emacs.d/recentf
+emacs/.emacs.d/history
+emacs/.emacs.d/places
+emacs/.emacs.d/.saves-*
+emacs/.emacs.d/#*#
+emacs/.emacs.d/*~
