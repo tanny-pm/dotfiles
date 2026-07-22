@@ -5,8 +5,12 @@ agent_panel_sort = "spaces"
 
 [ui.toast]
 delivery = "terminal"
-placement = "bottom-right"
-sound = "done"
+
+# placement は herdr 0.7 で [ui.toast.herdr].position に移動
+[ui.toast.herdr]
+position = "bottom-right"
+
+# 旧 ui.toast.sound は廃止。通知音は [ui.sound]（enabled はデフォルト true）で制御する
 
 [experimental]
 pane_history = false
