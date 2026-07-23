@@ -12,7 +12,7 @@
     "enabled": false
   },
   "markdown_preview_font_size": 15.0,
-  "buffer_line_height": "comfortable",
+  "buffer_line_height": "standard",
   "buffer_font_weight": 400.0,
   "buffer_font_family": "Menlo",
   "icon_theme": "Zed (Default)",
@@ -50,6 +50,7 @@
   "autosave": "on_focus_change",
   "cli_default_open_behavior": "existing_window",
   "terminal": {
+    "font_family": "Moralerspace Neon HW",
     "bell": "system"
   },
   "ui_font_size": 16,
