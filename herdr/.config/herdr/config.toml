@@ -2,6 +2,13 @@ onboarding = false
 
 [ui]
 agent_panel_sort = "spaces"
+# 名前未設定のペインでも検出したエージェント名を分割ペインの枠に出す
+show_agent_labels_on_pane_borders = true
+
+# サイドバー(agents)の行レイアウト: タブ番号ではなくペイン名を出す
+[ui.sidebar.agents]
+row_gap = 0
+rows = [["state_icon", "workspace", "agent"], ["terminal_title_stripped"]]
 
 [ui.toast]
 delivery = "terminal"
