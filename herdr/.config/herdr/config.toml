@@ -17,6 +17,15 @@ pane_history = false
 # prefix モードの間だけ macOS の入力ソースを ASCII 系に切り替え、抜けたら元に戻す
 switch_ascii_input_source_in_prefix = true
 
+# TUI がカーソルを隠していても、IME が候補ウィンドウの位置を
+# 追えるように外側のターミナルへカーソル位置を公開する
+reveal_hidden_cursor_for_cjk_ime = true
+
+# 上の設定を適用するエージェント（フォーカス中のペインで判定）
+cjk_ime_agents = ["claude", "codex", "kiro", "omp"]
+# IME 用に表示するカーソルの形状
+cjk_ime_cursor_shape = "steady_block"
+
 [theme]
 name = "terminal"
 auto_switch = false
