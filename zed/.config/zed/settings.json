@@ -50,7 +50,7 @@
   "autosave": "on_focus_change",
   "cli_default_open_behavior": "existing_window",
   "terminal": {
-    "font_family": "Moralerspace Neon HW",
+    "font_family": "Moralerspace Argon HW",
     "bell": "system"
   },
   "ui_font_size": 16,
