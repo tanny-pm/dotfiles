@@ -7,6 +7,8 @@ brew "cmake"
 brew "gh"
 # Node.js ｜ JavaScript ランタイム
 brew "node"
+# Bun ｜ 高速な JavaScript ランタイム / パッケージマネージャ
+brew "bun"
 # Starship ｜ 高速・多機能なシェルプロンプト
 brew "starship"
 # GNU Stow ｜ dotfiles のシンボリックリンク管理
@@ -33,6 +35,8 @@ brew "hunk"
 # ============================================================
 # エディタ・ファイラ（CLI/TUI）
 # ============================================================
+# Emacs ｜ 拡張可能なテキストエディタ（emacs/.emacs.d の init.el を使用）
+brew "emacs"
 # Helix ｜ モーダル編集の TUI テキストエディタ
 brew "helix"
 # micro ｜ 直感的な操作の TUI テキストエディタ
@@ -46,9 +50,15 @@ brew "yazi"
 # Ghostty ｜ GPU アクセラレーションのターミナルエミュレータ（herdr のホスト端末）
 cask "ghostty"
 # Claude Code ｜ ターミナル型 AI コーディング支援
-cask "claude-code"
+cask "claude-code@latest"
 # Zed ｜ 高速なコードエディタ
 cask "zed"
+
+# ============================================================
+# フォント
+# ============================================================
+# HackGen Nerd ｜ 日本語対応の等幅フォント（ghostty の font-family に使用）
+cask "font-hackgen-nerd"
 
 # ============================================================
 # ブラウザ
