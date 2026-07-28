@@ -20,6 +20,8 @@ position = "bottom-right"
 # 旧 ui.toast.sound は廃止。通知音は [ui.sound]（enabled はデフォルト true）で制御する
 
 [experimental]
+# official.browser プラグイン（Chromium をペインに描画）に必要
+kitty_graphics = true
 pane_history = false
 # prefix モードの間だけ macOS の入力ソースを ASCII 系に切り替え、抜けたら元に戻す
 switch_ascii_input_source_in_prefix = true
